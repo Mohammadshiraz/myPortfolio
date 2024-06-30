@@ -14,7 +14,11 @@ function About() {
       </div>
       <div className="flex gap-[80px]">
         <div className="flex flex-col gap-[80px]">
-          <img className=" rounded-lg w-[800px]" src={profile_img} alt="" />
+          <img
+            className=" rounded-lg border-[2px] border-slate-900     w-[800px]"
+            src={profile_img}
+            alt=""
+          />
         </div>
         <div className="about-right flex flex-col gap-[60px] ">
           <div className="about-para flex flex-col gap-[18px] text-[20px] font-medium">

@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className="flex justify-between  items-center my-[20px] mx-[170px]"
+      className="flex  justify-between  items-center my-[25px] mx-[150px]"
     >
-      <img className="w-[80px] rounded-full" src={logo} />
+      <img className="w-[80px]   rounded-full" src={logo} />
       <ul className="flex  list-none gap-[60px] items-center   text-[20px]">
         <li>
           <AnchorLink className=" no-underline text-white" href="home">
@@ -74,7 +74,7 @@ const Navbar = () => {
           {menu === "contact me" ? <img src={underline} alt="" /> : <></>}
         </li>
       </ul>
-      <div className="px-[40px] py-[20px]  rounded-[50px]  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[22px] cursor-pointer hover:scale-105  transition duration-500">
+      <div className="px-[25px] py-[15px]  rounded-[50px]  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[22px] cursor-pointer hover:scale-105  transition duration-500">
         Connect With Me
       </div>
     </div>

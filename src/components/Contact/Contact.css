@@ -1,0 +1,42 @@
+.contact-left-h {
+  font-size: 50px;
+  font-weight: 800;
+  background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-left p {
+  max-width: 550px;
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 35px;
+}
+.contact-right label {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+}
+.contact-right input {
+  border: none;
+  width: 700px;
+  height: 78px;
+
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: "outfit";
+  font-size: 20px;
+}
+.contact-right textarea {
+  border: none;
+  width: 100%;
+
+  padding: 18px 0px 18px 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: "outfit";
+  font-size: 18px;
+}

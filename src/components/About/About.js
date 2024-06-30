@@ -6,14 +6,16 @@ function About() {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center gap-[80px] mx-[170px] my-[80px]"
+      className="flex about flex-col items-center justify-center gap-[80px] mx-[170px] my-[80px]"
     >
       <div className=" relative">
-        <h1 className="px-[30px] py-0 text-[60px] font-semibold">About me</h1>
+        <h1 className="px-[30px] about-title py-0 text-[60px] font-semibold">
+          About me
+        </h1>
         <img className="  about-img" src={theam_pattern} alt="" />
       </div>
-      <div className="flex gap-[80px]">
-        <div className="flex flex-col gap-[80px]">
+      <div className="flex about-section gap-[80px]">
+        <div className="flex about-left flex-col gap-[80px]">
           <img
             className=" rounded-lg border-[2px] border-slate-900     w-[800px]"
             src={profile_img}
